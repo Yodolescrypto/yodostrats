@@ -101,11 +101,9 @@ class degen(IStrategy):
             'main_plot': {
 
             }
-            },
-            'subplots': {
-
             }
-        }
+           
+        
     
     @property
     def protections(self):
