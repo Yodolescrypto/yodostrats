@@ -1,4 +1,7 @@
 # yodostrats
+https://github.com/freqtrade/freqtrade First install dev branch of Freqtrade !
+
+
 Degenerate Freqtrade Strategies - Use with great care
 
 
