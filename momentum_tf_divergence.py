@@ -21,7 +21,7 @@ from technical.pivots_points import pivots_points
 from typing import Any, Dict, List
 
 # 13% APR 1 year backtest
-class momentum(IStrategy):
+class momentum_tf_divergence(IStrategy):
     custom_info = {}
     """
     This is a strategy template to get you started.

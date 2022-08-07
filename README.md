@@ -1,14 +1,18 @@
 # yodostrats
-https://github.com/freqtrade/freqtrade First install dev branch of Freqtrade !
+1. Installation
+    
+    Follow the steps from this repository, develop branch:
+    https://github.com/freqtrade/freqtrade 
+
+2. Move these strategies to your user_data/strategies/ folder
+
+3. Backtest with the pairs of your choice
+
+4. Dry-run for a few weeks before going live, for your wallet's sake
+
+5. All strategies are tested with coumpounding, this is not recommended as it increases a lot the risk and give a bigger delta between backtest - live-runs
+
+6. Please have fun trading
 
 
-Degenerate Freqtrade Strategies - Use with great care
-
-
-All strategies here aren't meant to make you profit as is. 
-They are still working in some conditions - you'll have to find yourself the ROI/StopLoss limits - I won't post any strat that I haven't backtested in multiple conditions
-and not showing any wins.
-
-Please have fun trading.
-
-0xe3a179Ec206548cdA6c5aE9f19DCdA9De83a0121 Donations welcome but in no circumstances necessary.
+Donations welcome but in no circumstances necessary : cabyodo.eth

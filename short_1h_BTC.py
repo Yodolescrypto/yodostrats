@@ -20,7 +20,7 @@ from technical.pivots_points import pivots_points
 from typing import Any, Dict, List
 
 
-class shortglob(IStrategy):
+class short1hBTC(IStrategy):
 
     INTERFACE_VERSION = 3
 

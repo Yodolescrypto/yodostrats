@@ -20,7 +20,7 @@ from technical.pivots_points import pivots_points
 from typing import Any, Dict, List
 
 # 13% APR 1 year backtest
-class degen(IStrategy):
+class grid(IStrategy):
     custom_info = {}
     
     class HyperOpt:

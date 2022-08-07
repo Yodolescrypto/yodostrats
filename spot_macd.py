@@ -22,7 +22,7 @@ from technical.pivots_points import pivots_points
 from typing import Any, Dict, List, Optional
 
 # 13% APR 1 year backtest
-class limit(IStrategy):
+class spotmacd(IStrategy):
     custom_info = {}
     """
     This is a strategy template to get you started.
