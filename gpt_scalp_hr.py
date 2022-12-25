@@ -150,7 +150,7 @@ class gpt_scalp_hr(IStrategy):
                             ]
         """
 
-        return False
+        return [("ETH/USDT:USDT", "5m")]
     
     @informative('5m')
     @informative('15m')
