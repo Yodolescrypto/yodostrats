@@ -21,6 +21,7 @@
 
 Hyperopting:
 To Hyperopt on custom buy parameters (as provided on hyperopt_strat.py):
+
   ``bash
     docker-compose run --rm freqtrade hyperopt --hyperopt-loss SharpeHyperOptLoss --spaces buy --strategy hyperopt_strat --timerange 20221101- --dry-run-wallet 1000  --enable-protections  -c user_data/confi.json  --fee 0.0002 -p "BTC/USDT"
     ``
