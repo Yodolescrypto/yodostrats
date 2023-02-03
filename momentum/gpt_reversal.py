@@ -145,9 +145,8 @@ class gpt_reversal(IStrategy):
                             ("BTC/USDT", "15m"),
                             ]
         """
-        pairs = self.dp.current_whitelist()
-        informative_pairs = [(pair, self.informative_timeframe) for pair in pairs]
-        return informative_pairs
+
+        return []
     
     @informative('15m')
     def populate_indicators(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
