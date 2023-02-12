@@ -11,6 +11,7 @@ This guide will help you to install and backtest Freqtrade strategies on your sy
 
 ## Backtesting
 You can backtest the selected strategies with the pairs of your choice. For example, to backtest the strategy **<strat_name>** for the pair **BTC/USDT**, run the following command in your terminal:
+
 ``docker-compose run --rm freqtrade backtesting --strategy <strat_name> --timerange <start>- --dry-run-wallet 1000 --breakdown month --enable-protections --cache none -c user_data/config.json --fee <exchange_fee> -p "BTC/USDT"``
 
 It is recommended to perform a dry-run for a few weeks before going live to ensure the safety of your wallet. Note that some strategies may be tested with compounding, which increases the risk and gives a bigger delta between backtest and live-runs.
