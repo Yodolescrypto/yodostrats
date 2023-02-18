@@ -1,0 +1,30 @@
+{
+    "strategy_name": "multi_rsi_degen",
+    "params": {
+      "roi": {
+        "0": 1
+      },
+      "stoploss": {
+        "stoploss": -0.08
+      },
+      "trailing": {
+        "trailing_stop": true,
+        "trailing_stop_positive": 0.02,
+        "trailing_stop_positive_offset": 0.30,
+        "trailing_only_offset_is_reached": true
+      },
+      "buy": {
+        "buy_adx": 29,
+        "buy_adx_short": 20,
+        "buy_rsi15": 40,
+        "buy_rsi15_short": 76,
+        "buy_rsi5": 30,
+        "buy_rsi5_short": 79
+      },
+      "sell": {},
+      "protection": {}
+    },
+    "ft_stratparam_v": 1,
+    "export_time": "2023-02-05 19:56:44.055060+00:00"
+  }
+  
