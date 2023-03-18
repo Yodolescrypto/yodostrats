@@ -21,6 +21,9 @@ You can hyperopt on custom buy parameters using the following command:
 
 ``docker-compose run --rm freqtrade hyperopt --hyperopt-loss SharpeHyperOptLoss --spaces buy --strategy hyperopt_strat --timerange 20221101- --dry-run-wallet 1000  --enable-protections  -c user_data/confi.json  --fee 0.0002 -p "BTC/USDT"``
 
+## Configuration
+Sample configuration files are available under config/*. Ultimately you should use your own to adapt to your risk appetite & needs, but you can get started by picking one for backtest purposes ! 
+
 ## Donations 
 Donations are welcome but not necessary. You can donate to the address **cabyodo.eth**.
 
